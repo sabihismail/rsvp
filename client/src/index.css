@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  z-index: 10;
+  font-family: 'Open Sans', sans-serif;
+  pointer-events: none;
+}
+
+.credits {
+  position: relative;
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  pointer-events: all;
+  float: right;
+}
+
+.credits:hover {
+  color: white;
+}
+
+.credits-heart {
+  color: red;
+}

@@ -1,0 +1,28 @@
+{
+    "JWT_SECRET": "",
+    "EMAIL": {
+        "HOST": "",
+        "USERNAME": "",
+        "PASSWORD": ""
+    },
+    "HEAD_ADMIN": {
+        "EMAIL": "example@example.com",
+        "SUBJECT": "Admin RSVP Setup",
+        "MESSAGE": "You are the designated head admin for the RSVP site. Please configure your account <a href=\"{url}\">here</a>"
+    },
+    "NEW_ADMIN": {
+        "SUBJECT": "{host} Admin Invitation",
+        "MESSAGE": "Hello.<br/><br/>You've been given administrative access to {host}. Please use the following link to set up your account <a href=\"{url}\">here</a>.<br/><br/>Thank you."
+    },
+    "INVITATION_EMAIL": {
+        "SUBJECT": "Wife and Husband Wedding Invitation RSVP for {name}"
+    },
+    "REMINDER_EMAIL": {
+        "SCHEDULE_TIME": "0 0 * * * *",
+        "DATES": [
+            "2018-07-15",
+            "2018-08-15"
+        ],
+        "MESSAGE": "Hey {name}.<br/><br/>This is just a reminder to RSVP for Wife and Husband's Wedding Invitation. The link is <a href=\"http://rsvp.com/{id}\">here</a>.<br/><br/>Thanks."
+    }
+}
