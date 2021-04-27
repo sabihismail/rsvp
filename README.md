@@ -10,7 +10,7 @@ Run the command `npm run install-all` in the base directory (same directory as t
 
 ## Configuration (each subheading is a file)
 ### `/server/config.json`
-`JWT_SECRET` - Since the authentication is based on a [json web token](https://jwt.io/), the secret should only be kept on the client side and should be unique and randomly generated. Use a website like [this](https://passwordsgenerator.net/) to generate some random string.
+`JWT_SECRET` - Since the authentication is based on a [json web token](https://jwt.io/), the secret should only be kept on the server side and should be unique and randomly generated. Use a website like [this](https://passwordsgenerator.net/) to generate some random string.
 
 `EMAIL` -> `HOST` - This is the SMTP host property. For my own uses, a simple `gmail` account could be used. View [this guide](https://medium.com/@manojsinghnegi/sending-an-email-using-nodemailer-gmail-7cfa0712a799) to set it up yourself.
 
